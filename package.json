@@ -1,0 +1,30 @@
+{
+    "name": "plugit-musicbot",
+    "description": "Plugit Musicbot Example Module",
+    "version": "0.1.0",
+    "homepage": "https://github.com/MarleyPlant/plugit-musicbot",
+    "author": {
+        "name": "Marley Joseph Plant",
+        "email": "marley@marleyplant.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/MarleyPlant/plugit-musicbot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MarleyPlant/plugit-musicbot/issues"
+    },
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "dependencies": {
+        "discord.js": "^11.2.1",
+        "plugit-util": "file:../plugit-util",
+        "prism-media": "github:hydrabolt/prism-media",
+        "ytdl-core": "^0.17.1"
+    },
+    "keywords": [
+        "plugit"
+    ]
+}
